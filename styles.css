@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:ital,wght@0,900;1,700&display=swap");
 
 #home {
-  height: 100vh;
-  background-image: url(/spiderman3.webp);
-  opacity: 70%;
+    height: 100vh;
+  background-image: url(/spiderman5.jpg);
+  opacity: 90%;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 footer {
-  background-color: rgb(196, 11, 11);
-  height: 40vh;
+  background-color: rgb(10, 17, 124);
+  
 }
 
 #img-title {
@@ -35,7 +35,7 @@ footer {
     overflow: hidden;
     border-radius: 5px;
     border: none;
-    background-color: #ef233c;
+    background-color: rgb(10, 17, 124);
    left:20%;
   top:20% ;
 }
@@ -58,4 +58,11 @@ footer {
     right: -20px;
     transition: 0.4s;
   }
-  
+
+  #trailer {
+    background-color: rgb(10, 17, 124);
+  }
+
+  #comprar {
+    background-color: #c71414;
+  }
