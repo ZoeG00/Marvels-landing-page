@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:ital,wght@0,900;1,700&display=swap");
+
+#home {
+  height: 100vh;
+  background-image: url(/spiderman3.webp);
+  opacity: 70%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+footer {
+  background-color: rgb(196, 11, 11);
+  height: 40vh;
+}
+
+#img-title {
+  width: 50%;
+  position: relative;
+  left: 40%;
+  top: 30%;
+}
+
+.btn {
+  text-transform: uppercase;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #ef233c;
+   left:20%;
+  top:20% ;
+}
+  .btn:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  .btn:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  .btn:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
+  
