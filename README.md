@@ -4,7 +4,7 @@ Landing page basada en la película "No Way Home" de Spiderman
 
 ## Deploy
 
-https://zoeg00.github.io/Marvels-landing-page/
+https://spiderman-landing-page.vercel.app/
 
 
 ## Preview
