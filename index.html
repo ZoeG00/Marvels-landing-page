@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" type="text/css" />
     <link rel="stylesheet" href="styles.css" type="text/css" />
-    <icon rel="icon" icon="/araña.png"></icon>
     <title>Spiderman No Way Home | Comprar</title>
     <meta name="description" content="Landing de Spiderman" />
     <meta
@@ -17,25 +16,54 @@
   <body>
     <section id="home"></section>
     <section id="trailer">
-      <p>Mira el trailer</p>
-      <img id="img-title" src="/slogan.png" />
+      <p id="trailer-text">Mira el trailer</p>
+      <iframe
+        width="360"
+        height="215"
+        src="https://www.youtube.com/embed/r6t0czGbuGI"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <img id="trailer-slogan" src="/assets/slogan.png" alt="spiderman no way home" />
     </section>
     <section id="comprar">
-      <a
-        href="https://www.amazon.com/Spider-Man-No-Way-Home-Blu-ray/dp/B09LRX2TXR/ref=sr_1_2?adgrpid=80930798365&hvadid=585412560928&hvdev=c&hvlocphy=1000094&hvnetw=g&hvqmt=b&hvrand=15481400181861216825&hvtargid=kwd-298092004743&hydadcr=22340_13333061&keywords=spider+man+blu+ray&qid=1686621162&sr=8-2"
-        target="_blank"
-      >
-        <button class="btn">Comprar</button>
-      </a>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="rgb(10, 17, 124)"
+          fill-opacity="1"
+          d="M0,256L48,250.7C96,245,192,235,288,202.7C384,171,480,117,576,122.7C672,128,768,192,864,213.3C960,235,1056,213,1152,170.7C1248,128,1344,64,1392,32L1440,0L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+        <h1 id="compra-texto1">obtenla ahora</h1>
+        <p id="compra-texto2">Oferta limitada</p>
+        <a
+          href="https://www.amazon.com/Spider-Man-No-Way-Home-Blu-ray/dp/B09LRX2TXR/ref=sr_1_2?adgrpid=80930798365&hvadid=585412560928&hvdev=c&hvlocphy=1000094&hvnetw=g&hvqmt=b&hvrand=15481400181861216825&hvtargid=kwd-298092004743&hydadcr=22340_13333061&keywords=spider+man+blu+ray&qid=1686621162&sr=8-2"
+          target="_blank"
+        >
+          <button class="btn">Comprar</button>
+        </a>
+      </svg>
     </section>
   </body>
   <footer>
-    <div id="redes">
-      <p>Siguenos para enterarte sobre más lanzamientos</p>
-      <p>Instagram</p>
-      <p>Facebook</p>
-      <p>Twitter</p>
-      <p>ventadepelis@compras.com</p>
-    </div>
+    <svg id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="rgb(10, 17, 124)"
+        fill-opacity="1"
+        d="M0,32L40,37.3C80,43,160,53,240,58.7C320,64,400,64,480,69.3C560,75,640,85,720,106.7C800,128,880,160,960,176C1040,192,1120,192,1200,197.3C1280,203,1360,213,1400,218.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+      ></path>
+      <div id="redes">
+        <p>Siguenos para enterarte sobre más lanzamientos</p>
+        <p>Instagram</p>
+        <p>Facebook</p>
+        <p>Twitter</p>
+        <p>ventadepelis@compras.com</p>
+        <p>©2023</p>
+        <a href="https:/www.github.com/ZoeG00" target="_blank">
+          <p>Powered by: Zoe Guzman</p>
+        </a>
+      </div>
+    </svg>
   </footer>
 </html>

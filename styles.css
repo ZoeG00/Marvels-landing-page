@@ -1,68 +1,123 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:ital,wght@0,900;1,700&display=swap");
 
+/***********************
+Sección Home
+ ***********************/
 #home {
-    height: 100vh;
-  background-image: url(/spiderman5.jpg);
+  height: 100vh;
+  background-image: url(/assets/spiderman5.jpg);
   opacity: 90%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-footer {
-  background-color: rgb(10, 17, 124);
+/******************
+Sección Trailer
+*******************/
+#trailer {
+    background-color: rgb(10, 17, 124);
+    font-family: roboto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5rem;
+  }
+  #trailer-text {
+    border-radius: 5px;
+    height: fit-content;
+    position: relative;
+    left: 16rem;
+    top: 14rem;
+    text-transform: uppercase;
+    background-color: #c71414;
+    padding: 10px;
+  }
+  #trailer-slogan {
+    width: 50%;
+    position: relative;
+    left: 10rem;
+    top: 30%;
+  }
   
+/**************************
+Sección Comprar 
+************************/
+#comprar {
+  background-color: #c71414;
+  font-family: roboto;
 }
-
-#img-title {
-  width: 50%;
-  position: relative;
-  left: 40%;
-  top: 30%;
+#compra-texto1 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 10rem;
 }
-
+#compra-texto2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
 .btn {
   text-transform: uppercase;
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    overflow: hidden;
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(10, 17, 124);
-   left:20%;
-  top:20% ;
+  min-width: 130px;
+  height: 45px;
+  color: #fff;
+  margin-top: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(10, 17, 124);
+  left: 38rem;
 }
-  .btn:hover {
-    border-radius: 5px;
-    padding-right: 24px;
-    padding-left:8px;
-  }
-  .btn:hover:after {
-    opacity: 1;
-    right: 10px;
-  }
-  .btn:after {
-    content: "\00BB";
-    position: absolute;
-    opacity: 0;
-    font-size: 20px;
-    line-height: 40px;
-    top: 0;
-    right: -20px;
-    transition: 0.4s;
-  }
+.btn:hover {
+  border-radius: 5px;
+  padding-right: 24px;
+  padding-left: 8px;
+}
+.btn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+.btn:after {
+  content: "\00BB";
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+}
 
-  #trailer {
-    background-color: rgb(10, 17, 124);
-  }
-
-  #comprar {
+/*********************
+Footer
+**********************/
+footer {
     background-color: #c71414;
+    font-family: roboto;
+    color: white;
+    padding-left: 5rem;
   }
+#redes {
+    line-height: 2rem;
+    text-decoration: underline red;
+    position: relative;
+    z-index: 1;
+    top: 4rem;
+}
+#wave {
+    width: 100%;
+    right: 0rem;
+    position: absolute;
+    z-index: 0;
+}
